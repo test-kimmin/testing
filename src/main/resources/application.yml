@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: kotlinAi
+
+  ai:
+    openai:
+      base-url: api.openai.com
+      api-key: ${AI_KEY}
+      chat:
+        options:
+          model: gpt-4
